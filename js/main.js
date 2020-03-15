@@ -1,5 +1,5 @@
 ((window, document) => {
-  const weddingDate = new Date('2021-01-30T18:00:00-05:00');
+  const weddingDate = new Date(window.weddingDate);
   const daysElement = document.getElementById('days');
   const hoursElement = document.getElementById('hours');
   const minElement = document.getElementById('minutes');
