@@ -8,7 +8,7 @@
 body {
 	text-align: center;
     background-color: var(--blush);
-    font-family: "Didot", serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 
 #title {
@@ -26,4 +26,10 @@ body {
 
 .units {
     font-size: 1.0em;
+}
+
+@media screen and (max-width: 767px) {
+    #seconds-card {
+        display: none;
+    }
 }
