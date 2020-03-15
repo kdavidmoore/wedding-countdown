@@ -1,23 +1,23 @@
 :root {
-/*    --main-bg-color: rgb(241, 239, 214);*/
-    --main-bg-color: #FFFFF0;
-    --card-color: rgb(144, 160, 134);
-    --text-color: rgb(123, 23, 61);
+    --ivory: #FFFFF0;
+    --blush: #F5E7EA;
+    --sage: rgb(144, 160, 134);
+    --burgundy: rgb(123, 23, 61);
 }
 
 body {
 	text-align: center;
-    background-color: var(--main-bg-color);
-}
-
-#title {
-/*    color: var(--card-color);*/
-    color: var(--text-color);
+    background-color: var(--blush);
     font-family: "Didot", serif;
 }
 
+#title {
+    color: var(--burgundy);
+}
+
 .card-color {
-    background-color: var(--card-color);
+    background-color: var(--sage);
+    color: var(--ivory);
 }
 
 .time-number {
