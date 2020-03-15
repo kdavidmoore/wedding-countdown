@@ -1,0 +1,29 @@
+:root {
+/*    --main-bg-color: rgb(241, 239, 214);*/
+    --main-bg-color: #FFFFF0;
+    --card-color: rgb(144, 160, 134);
+    --text-color: rgb(123, 23, 61);
+}
+
+body {
+	text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+#title {
+/*    color: var(--card-color);*/
+    color: var(--text-color);
+    font-family: "Didot", serif;
+}
+
+.card-color {
+    background-color: var(--card-color);
+}
+
+.time-number {
+    font-size: 2.0em;
+}
+
+.units {
+    font-size: 1.0em;
+}

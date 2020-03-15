@@ -8,22 +8,20 @@
         <!-- Allow installing the app to the homescreen -->
         <link rel="manifest" href="manifest.json">
         <meta name="mobile-web-app-capable" content="yes">
-        <title>Grace &amp; Keith Wedding Countdown</title>
-        <link href="css/reset.css" rel="stylesheet" />
-        <link href="css/default.css" rel="stylesheet" />
-
-        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+        <title>Grace &amp; Keith Wedding</title>
+<!--        <link href="css/reset.css" rel="stylesheet" />-->
+<!--        <link href="css/default.css" rel="stylesheet" />-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Display a message if JS has been disabled on the browser. -->
         <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
 
-        <h1>Grace &amp; Keith Wedding Countdown</h1>
-        <div id="countdown-wrapper">
+        <div class="container">
+            <h1 id="title">Grace &amp; Keith Wedding</h1>
+
 <!--
             <div class="time-wrapper">
                 <div id="days" class="time-num"></div>
@@ -42,10 +40,43 @@
                 <div class="time-text">Seconds</div>
             </div>
 -->
+
+<!--
             <span id="days"></span>d :
             <span id="hours"></span>h :
             <span id="minutes"></span>m :
             <span id="seconds"></span>s
+-->
+
+            <div class="row">
+                <div class="col s4">
+                    <div class="card-panel pink darken-4 small">
+                        <div id="days" class="white-text time-number"></div>
+                        <div class="white-text units">days</div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card-panel pink darken-4 small">
+                        <div id="hours" class="white-text time-number"></div>
+                        <div class="white-text units">hours</div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card-panel pink darken-4 small">
+                        <div id="minutes" class="white-text time-number"></div>
+                        <div class="white-text units">minutes</div>
+                    </div>
+                </div>
+<!--
+                 <div class="col s3">
+                    <div class="card-panel pink darken-4 small">
+                        <div id="seconds" class="white-text time-number"></div>
+                        <div class="white-text units">seconds</div>
+                    </div>
+                </div>
+-->
+            </div>
+
         </div>
 
         <script src="js/main.js"></script>

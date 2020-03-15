@@ -14,10 +14,6 @@ h1 {
     font-size: 1.5em;
 }
 
-#countdown-wrapper > span {
-}
-
-/*
 #countdown-wrapper .time-wrapper {
     padding: 1.5em;
 	border-radius: 3px;
@@ -25,9 +21,7 @@ h1 {
 	display: inline-block;
 	margin-bottom: 5px;
 }
-*/
 
-/*
 .time-wrapper > div {
     padding: 0.5em;
 	border-radius: 3px;
@@ -35,7 +29,6 @@ h1 {
 	display: block;
 	color: #fff;
 }
-*/
 
 .time-num {
     font-size: 1.5em;
