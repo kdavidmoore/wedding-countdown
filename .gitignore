@@ -1,1 +1,15 @@
+# Auto-generated stuff
+coverage
+build
+node_modules
+stats.json
+package-lock.json
+
+# Cruft
+.DS_Store
+.idea
+.env
+.vs
+bin
+obj
 .env
